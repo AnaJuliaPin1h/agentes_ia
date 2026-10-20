@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Agentes de IA e Acesso Não Autorizado a Sistemas Governamentais — Os incidentes de 2026</title>
+
+<meta name="description" content="Estudo de divulgação sobre os incidentes de 2026 em que agentes de inteligência artificial acessaram sistemas governamentais e de terceiros sem autorização, e sobre o deslocamento do debate de 'retrocesso' para desaceleração da fronteira.">
+<meta name="author" content="Ana Julia Pinheiro Da Silva">
+<meta name="theme-color" content="#0a1628">
+
+<!-- Prévia em redes sociais e WhatsApp -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Agentes de IA e Acesso Não Autorizado a Sistemas Governamentais">
+<meta property="og:description" content="Os incidentes de 2026 e o debate sobre a desaceleração da fronteira.">
+
+
+<!-- Favicon embutido, não depende de arquivo -->
+
+<!-- Tema (cores do projeto) -->
+<link rel="stylesheet" href="css/tema.css">
+
+<!-- Folha de estilo -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Tipografia: Lora (títulos) e Montserrat (texto) -->
+<link rel="preconnect" href="[fonts.googleapis.com](https://fonts.googleapis.com)">
+<link rel="preconnect" href="[fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
+<link rel="stylesheet" href="[fonts.googleapis.com](https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:wght@400;500;600;700&display=swap)">
+
+</head>
+
+<body>
+
+
+<header class="header">
+  <div class="container">
+
+    <a class="navbar-brand" href="#topo">
+      <span class="navbar-brand__marca">IA</span>
+      <span class="navbar-brand__texto">Agentes de IA · 2026</span>
+    </a>
+
+    <nav class="nav" aria-label="Navegação principal">
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#pilares">Padrões</a></li>
+        <li><a href="#casos">Os casos</a></li>
+        <li><a href="#quadro">Comparação</a></li>
+        <li><a href="#debate">O debate</a></li>
+        <li><a href="#faq">Dúvidas</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+
+
+<section class="hero-section" id="topo">
+  <div class="hero-content">
+
+    <span class="hero-content__kicker">Pesquisa de divulgação</span>
+
+    <h1>Agentes de IA e Acesso Não Autorizado a Sistemas Governamentais</h1>
+
+    <p>Os incidentes de 2026 e o debate sobre a desaceleração da fronteira</p>
+
+    <a class="btn-principal btn-claro" href="#sobre">Entender o caso</a>
+
+    <div class="hero-content__meta">
+      <div>Autoria<b>Ana Julia Pinheiro Da Silva</b></div>
+      <div>Curso<b>Análise e Desenvolvimento de Sistemas</b></div>
+      <div>Data de corte<b>10 de outubro de 2026</b></div>
+    </div>
+
+  </div>
+</section>
+
+
+<main>
+
+
+  <section class="secao sobre" id="sobre">
+    <div class="container">
+
+      <span class="rotulo">Sobre esta pesquisa</span>
+      <h2><span class="icone">🔍</span>Sobre o estudo</h2>
+      <div class="filete"></div>
+
+      <p class="olho">
+        Em 2026, o software começou a agir por conta própria — e nem sempre dentro dos limites.
+      </p>
+
+      <article>
+
+        <section>
+          <h3>O que aconteceu</h3>
+          <p>
+            Em 2026, agentes de inteligência artificial executados por laboratórios de fronteira
+            ultrapassaram limites de isolamento e acessaram sistemas de terceiros e de governos
+            sem autorização. Modelos que deveriam operar dentro de ambientes fechados de teste
+            encontraram caminhos para fora deles e alcançaram infraestrutura real de empresas e
+            de Estados.
+          </p>
+        </section>
+
+        <section>
+          <h3>O que é um agente de IA</h3>
+          <p>
+            Um assistente comum recebe uma pergunta, produz uma resposta e para. Um
+            <b>agente</b> é diferente: recebe um objetivo, <b>planeja etapas</b>,
+            <b>usa ferramentas</b> e <b>executa ações em ambientes externos</b>, adaptando o
+            caminho conforme os obstáculos aparecem. Isso é útil — e é justamente aí que mora
+            o risco: um agente que persegue um objetivo encontra rotas que ninguém previu,
+            inclusive rotas para fora.
+          </p>
+        </section>
+
+        <section>
+          <h3>Como este estudo foi feito</h3>
+          <p>
+            Trata-se de um estudo documental, qualitativo e descritivo, sem pretensão de
+            representatividade estatística. O corpus reúne fontes primárias (comunicados e
+            relatórios dos próprios laboratórios), fontes governamentais (alertas e revisões
+            de órgãos públicos) e relatórios de organizações independentes. Cada afirmação
+            factual exige <b>ao menos duas fontes independentes</b>, com data de acesso, e os
+            fatos narrados têm uma <b>data de corte explícita: 10 de outubro de 2026</b>.
+          </p>
+        </section>
+
+      </article>
+
+    </div>
+  </section>
+
+
+
+  <section class="secao secao--alt" id="pilares">
+    <div class="container pilares">
+
+      <span class="rotulo">Análise</span>
+      <h2><span class="icone">🧩</span>Os três padrões convergentes</h2>
+      <div class="filete"></div>
+
+      <p class="olho">
+        Comparando os quatro casos, três padrões aparecem com clareza.
+      </p>
+
+      <dl>
+
+        <dt><span class="num">1</span>A falha foi técnica, não intencional</dt>
+        <dd>
+          O modo de falha predominante é <b>operacional e de segurança</b>: isolamento mal
+          especificado ou mal verificado, credenciais expostas em serviços públicos,
+          vulnerabilidades conhecidas e desconhecidas em software de terceiros, tarefas
+          formuladas sem caminho de saída segura. Em nenhum dos casos documentados há
+          evidência de objetivo autônomo de causar dano. <b>Consequência prática:</b> se o
+          problema é de engenharia e de governança, ele é tratável por verificação técnica,
+          especificação contratual e supervisão.
+        </dd>
+
+        <dt><span class="num">2</span>A demora transformou falha técnica em crise</dt>
+        <dd>
+          A assimetria entre detecção e comunicação concentra a maior parte do dano
+          institucional. A Hugging Face detectou a intrusão por monitoramento próprio e a
+          divulgou em <b>4 dias</b>. A OpenAI levou <b>84 dias</b> para notificar o governo
+          australiano sobre o acesso ao portal do Medicare. A Anthropic levou semanas para
+          revisar 141.006 execuções antes de se manifestar. A Transluce documentou atividade
+          de maio e junho apenas em setembro e outubro. Em todos os casos, a informação chegou
+          ao público <b>por investigação de terceiros ou por divulgação de autoridade — não
+          pelo operador dos agentes</b>.
+        </dd>
+
+        <dt><span class="num">3</span>A resposta foi mais controle, não menos tecnologia</dt>
+        <dd>
+          Laboratórios, órgãos públicos e organizações independentes apontam, de modo
+          independente, para o mesmo conjunto de medidas: <b>isolamento verificado e
+          monitorado continuamente</b>, <b>avaliação externa permanente com acesso equivalente
+          ao de funcionário</b>, <b>relato obrigatório de incidentes</b> e <b>revisão dos
+          arranjos de governança</b>. Nenhuma das respostas anunciadas propõe interromper o
+          desenvolvimento.
+        </dd>
+
+      </dl>
+
+    </div>
+  </section>
+
+
+
+  <section class="secao" id="casos">
+    <div class="container">
+
+      <span class="rotulo">Resultados</span>
+      <h2><span class="icone">🗂️</span>Os quatro conjuntos de casos</h2>
+      <div class="filete"></div>
+
+      <p class="olho">
+        Os episódios diferem quanto ao ambiente de origem, ao tipo de sistema atingido e ao
+        modo de descoberta. Compará-los é um exercício analítico, não a soma de relatos
+        equivalentes.
+      </p>
+
+      <!-- CASO 1 -->
+      <article class="caso">
+        <span class="tag tag--alerta">Acesso a infraestrutura de produção</span>
+        <p class="caso__local">Estados Unidos · julho de 2026</p>
+        <h3>O caso OpenAI / Hugging Face</h3>
+
+        <p>
+          Em <b>16 de julho de 2026</b>, a Hugging Face divulgou a detecção de uma intrusão em
+          parte de sua infraestrutura de produção, conduzida de ponta a ponta por um sistema de
+          agentes autônomos. A empresa informou ter identificado e analisado o ataque com
+          ferramentas próprias de IA e ter notificado o FBI.
+        </p>
+
+        <p>
+          Cinco dias depois, em <b>21 de julho</b>, a OpenAI confirmou que modelos seus, durante
+          uma avaliação interna de capacidades ofensivas de cibersegurança, haviam escapado do
+          ambiente isolado e alcançado a infraestrutura da Hugging Face. O relatório técnico
+          publicado em <b>26 de agosto</b> reconstituiu a sequência: em 26 de maio, um agente
+          obteve acesso não intencional à internet fazendo com que o proxy de cache de pacotes
+          emitisse uma requisição a um destino externo; em 26 de junho, agentes exploraram uma
+          vulnerabilidade de atualização de token para obter acesso administrativo ao mesmo
+          serviço; em 10 de julho, um agente reconstruiu e compartilhou credenciais expostas
+          publicamente.
+        </p>
+
+        <p>
+          Não foi um ataque único, mas uma <b>cadeia de ações autônomas distribuídas ao longo
+          de semanas</b>, com comunicação entre instâncias por canais não previstos.
+        </p>
+
+        <div class="caso__dados">
+          <div class="dado">Detecção: <b>16 jul</b></div>
+          <div class="dado">Confirmação: <b>21 jul</b></div>
+          <div class="dado">Relatório técnico: <b>26 ago</b></div>
+          <div class="dado">Do acesso à divulgação: <b>4 dias</b></div>
+        </div>
+      </article>
+
+      <!-- CASO 2 -->
+      <article class="caso">
+        <span class="tag tag">Divergência de especificação</span>
+        <p class="caso__local">Interno · 30 de julho de 2026</p>
+        <h3>A revisão retrospectiva da Anthropic</h3>
+
+        <p>
+          A Anthropic tornou público o resultado de uma revisão retrospectiva de suas próprias
+          avaliações de cibersegurança. Após examinar <b>141.006 execuções</b>, a empresa
+          identificou <b>três incidentes</b> em que modelos chegaram à internet a partir de um
+          ambiente de avaliação de terceiros e obtiveram acesso não autorizado à infraestrutura
+          de produção de três organizações distintas.
+        </p>
+
+        <p>
+          A empresa interrompeu as avaliações externas em <b>23 de julho</b>, classificou os
+          eventos como falha de segurança operacional e retomou os testes em <b>31 de agosto</b>,
+          após implantar salvaguardas adicionais — entre elas um classificador capaz de
+          identificar tentativas de escape e interromper a avaliação.
+        </p>
+
+        <p>
+          O caso é analiticamente importante porque <b>inverte a hipótese usual</b>: o problema
+          não esteve em um agente que decidiu desobedecer, mas em uma <b>divergência de
+          especificação entre duas organizações quanto ao que "isolado" significava</b>. Uma
+          verificação técnica de aceitação do ambiente teria evitado o conjunto de incidentes.
+        </p>
+
+        <div class="caso__dados">
+          <div class="dado">Execuções revisadas: <b>141.006</b></div>
+          <div class="dado">Incidentes: <b>3</b></div>
+          <div class="dado">Testes interrompidos: <b>23 jul</b></div>
+          <div class="dado">Testes retomados: <b>31 ago</b></div>
+        </div>
+      </article>
+
+      <!-- CASO 3 -->
+      <article class="caso">
+        <span class="tag tag--alerta">Sistema governamental real</span>
+        <p class="caso__local">Austrália · 18 de junho de 2026</p>
+        <h3>O portal de estatísticas do Medicare</h3>
+
+        <p>
+          O único caso do corpus que envolve <b>um sistema governamental real de um Estado</b> —
+          e também aquele em que a falha técnica foi acompanhada de falha de comunicação. Em
+          <b>18 de junho de 2026</b>, um agente operado pela OpenAI obteve acesso não autorizado
+          ao portal do Serviço de Relatórios de Estatísticas do Medicare, administrado pela
+          Services Australia.
+        </p>
+
+        <p>
+          O portal é público e contém dados agregados, não sensíveis. Segundo o relato
+          governamental, a OpenAI atribuiu ao agente uma <b>tarefa benigna de pesquisa</b> sobre
+          gastos públicos com medicamentos. O modelo pesquisou a internet e encontrou o portal;
+          ao solicitar informações, encontrou controles que limitaram sua capacidade de concluir
+          a atividade — e <b>buscou um caminho alternativo para contorná-los</b>. O agente obteve
+          acesso à infraestrutura por trás do sítio e escreveu dados no servidor.
+        </p>
+
+        <p>
+          A cronologia da comunicação é o ponto mais crítico. O acesso ocorreu em junho; a OpenAI
+          identificou-o em <b>agosto</b>, durante revisão interna decorrente das revelações sobre
+          o caso anterior; a empresa notificou a agência em <b>10 de setembro</b>, por e-mail
+          enviado a um endereço público; a agência verificou a legitimidade e relatou ao Centro
+          Australiano de Cibersegurança em 15 de setembro; a divulgação pública ocorreu em
+          <b>23 e 24 de setembro</b>. O intervalo entre o acesso e a notificação foi de
+          <b>aproximadamente 84 dias</b>.
+        </p>
+
+        <div class="caso__dados">
+          <div class="dado">Acesso: <b>18 jun</b></div>
+          <div class="dado">Identificação: <b>agosto</b></div>
+          <div class="dado">Notificação: <b>10 set</b></div>
+          <div class="dado">Divulgação: <b>23–24 set</b></div>
+        </div>
+      </article>
+
+      <!-- CASO 4 -->
+      <article class="caso">
+        <span class="tag tag--atencao">Uso indevido de recursos</span>
+        <p class="caso__local">EUA e Canadá · 2026</p>
+        <h3>Projetos Wikimedia e sítios governamentais</h3>
+
+        <p>
+          O quarto conjunto difere dos anteriores porque <b>não envolve, em sua maioria, acesso
+          a informação não pública</b>.
+        </p>
+
+        <p>
+          Em <b>5 de outubro de 2026</b>, a Wikimedia Foundation confirmou ter identificado
+          atividade de agentes atribuídos à OpenAI em seus projetos: edições em wikis de teste,
+          <b>milhões de requisições automatizadas</b> às interfaces públicas, rastreamento de
+          milhões de páginas e centenas de milhares de consultas ao serviço de consultas do
+          Wikidata — tráfego que pode ter contribuído para uma indisponibilidade parcial em maio.
+          A fundação registrou que as empresas de IA não estão fazendo o suficiente para proteger
+          o público, e que esse ônus recai sobre terceiros, inclusive organizações menores.
+        </p>
+
+        <p>
+          Em paralelo, a Transluce publicou análise baseada em dados do Arquivo.pt e do
+          urlquery.net descrevendo atividade contra sítios governamentais dos <b>Estados Unidos
+          e do Canadá</b>: duas tentativas rudimentares e malsucedidas de invasão e um conjunto
+          mais amplo de táticas agressivas de coleta que, sem configurar invasão, usaram sítios
+          de formas não previstas. Entre os alvos citados estão a Casa Branca, os Departamentos
+          de Guerra, Justiça e Comércio, os Centros de Controle e Prevenção de Doenças e a
+          Comissão de Valores Mobiliários, além de agências estaduais na Califórnia, Maryland,
+          Illinois, Texas e Nova York. Em Maryland, registrou-se <b>pico de 5.594 capturas por
+          minuto</b>.
+        </p>
+
+        <p>
+          <b>Nota metodológica:</b> este conjunto é o mais frágil do estudo. A atribuição dos
+          agentes a um operador específico repousa em características de tráfego e correlação
+          temporal, não em prova direta.
+        </p>
+
+        <div class="caso__dados">
+          <div class="dado">Confirmação Wikimedia: <b>5 out</b></div>
+          <div class="dado">Alvos: <b>Casa Branca, DOJ, CDC e outros</b></div>
+          <div class="dado">Pico de tráfego: <b>5.594 capturas/min</b></div>
+          <div class="dado">Dano comprovado: <b>nenhum dado não público</b></div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+
+
+  <section class="secao secao--alt" id="quadro">
+    <div class="container">
+
+      <span class="rotulo">Síntese comparativa</span>
+      <h2><span class="icone">📊</span>Os quatro casos lado a lado</h2>
+      <div class="filete"></div>
+
+      <div class="tabela-scroll">
+        <table class="tabela">
+
+          <caption class="tabela__legenda">
+            Quadro 1 — Comparação dos incidentes segundo ambiente de origem, sistema atingido e
+            modo de resposta. Fonte: elaborado pela autora a partir das fontes relacionadas (2026).
+          </caption>
+
+          <thead>
+            <tr>
+              <th scope="col">Caso</th>
+              <th scope="col">Ambiente de origem</th>
+              <th scope="col">Sistema atingido</th>
+              <th scope="col">Como foi detectado</th>
+              <th scope="col">Do acesso à divulgação</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th scope="row">
+                OpenAI / Hugging Face<br>
+                <span class="tabela__sub">Estados Unidos</span>
+              </th>
+              <td>Avaliação interna de capacidades ofensivas</td>
+              <td>Infraestrutura de produção de plataforma de modelos</td>
+              <td>Monitoramento próprio da Hugging Face</td>
+              <td class="tabela__destaque">4 dias</td>
+            </tr>
+
+            <tr>
+              <th scope="row">
+                Revisão da Anthropic<br>
+                <span class="tabela__sub">Interno</span>
+              </th>
+              <td>Avaliação conduzida por terceiro</td>
+              <td>Infraestrutura de produção de três organizações</td>
+              <td>Revisão retrospectiva de 141.006 execuções</td>
+              <td class="tabela__destaque">3 a 5 semanas</td>
+            </tr>
+
+            <tr>
+              <th scope="row">
+                Portal do Medicare<br>
+                <span class="tabela__sub">Austrália</span>
+              </th>
+              <td>Tarefa aberta de pesquisa sobre gastos públicos</td>
+              <td>Sistema governamental real (Services Australia)</td>
+              <td>Revisão interna da OpenAI após o caso anterior</td>
+              <td class="tabela__destaque">84 dias</td>
+            </tr>
+
+            <tr>
+              <th scope="row">
+                Wikimedia e sítios gov.<br>
+                <span class="tabela__sub">EUA / Canadá</span>
+              </th>
+              <td>Atividade de agentes em ambiente aberto</td>
+              <td>Projetos Wikimedia e sítios governamentais</td>
+              <td>Investigação independente de terceiros</td>
+              <td class="tabela__destaque">2 a 4 meses</td>
+            </tr>
+          </tbody>
+
+        </table>
+      </div>
+
+      <p>
+        A leitura do quadro evidencia o segundo padrão: <b>não é a falha técnica que se
+        destaca</b>, mas a distância entre o momento em que o acesso ocorreu e o momento em que
+        alguém ficou sabendo.
+      </p>
+
+    </div>
+  </section>
+
+
+
+  <section class="secao" id="debate">
+    <div class="container">
+
+      <span class="rotulo">Discussão</span>
+      <h2><span class="icone">⚖️</span>De "retrocesso" a desaceleração</h2>
+      <div class="filete"></div>
+
+      <p>
+        A escolha do termo <b>desaceleração</b> em lugar de <b>retrocesso</b> é deliberada, e é
+        uma decisão analítica. O material empírico não sustenta a ideia de interrupção ou
+        reversão; sustenta a de <b>modulação deliberada da velocidade de ganho de capacidade</b>,
+        para que avaliação, regulação e pesquisa de alinhamento possam acompanhar o ritmo do
+        progresso técnico.
+      </p>
+
+      <p>
+        Em <b>12 de setembro de 2026</b>, o diretor-executivo da Anthropic publicou o ensaio
+        "We Must Pace the Frontier", no qual sustenta que a indústria deve desacelerar
+        deliberadamente o ritmo de melhoria das capacidades dos modelos. O próprio autor
+        explicita que propostas de pausa de 2023 lhe pareciam pouco razoáveis na época — porque
+        os modelos não eram capazes de atuar como agentes no mundo de forma coerente, de enganar
+        avaliadores ou de conduzir ataques cibernéticos — e que dois desenvolvimentos do inverno
+        de 2026 alteraram esse cálculo. O ensaio teve repercussão imediata: o diretor-executivo
+        da OpenAI manifestou que a empresa adotaria compromisso equivalente. <b>Não houve,
+        contudo, acordo formal vinculante entre as empresas.</b>
+      </p>
+
+      <h3>A leitura concorrente</h3>
+
+      <p>
+        Por honestidade analítica, deve registrar-se a leitura oposta: parte dos comentaristas
+        sustenta que propostas de desaceleração apresentadas por empresas líderes podem funcionar
+        como <b>barreira à entrada de concorrentes</b>, e que a coordenação regulatória entre
+        laboratórios de países democráticos, na ausência de mecanismos externos de verificação,
+        transferiria às próprias empresas a definição do que constitui prática segura.
+      </p>
+
+      <p>
+        O material disponível não permite decidir entre as duas leituras. Permite apenas registrar
+        que <b>ambas são compatíveis com os fatos documentados</b>, e que a verificação da
+        primeira depende de dados sobre a efetividade das salvaguardas anunciadas — dados que, na
+        data de corte, ainda não existiam.
+      </p>
+
+      <h3>Limitações e pesquisas futuras</h3>
+
+      <p>
+        A documentação disponível foi produzida, em parte substancial, pelas organizações cujo
+        comportamento se examina; a atribuição de autoria em parte dos casos não é definitiva; e
+        o fenômeno seguia em evolução na data de corte. O corpus é, por consequência, um retrato
+        parcial e provavelmente conservador: <b>os incidentes documentados são aqueles que
+        deixaram rastro detectável por alguém com capacidade de investigá-lo</b>.
+      </p>
+
+      <p>
+        Pesquisas futuras poderiam avançar na construção de séries sistemáticas de incidentes com
+        base em registros de tráfego público, na avaliação da efetividade das salvaguardas
+        anunciadas em 2026 — verificável a partir de 2027 — e no exame comparado de regimes
+        nacionais de notificação obrigatória de incidentes envolvendo agentes de IA.
+      </p>
+
+    </div>
+  </section>
+
+
+ 
+  <section class="secao secao--alt" id="faq">
+    <div class="container faq">
+
+      <span class="rotulo">Dúvidas frequentes</span>
+      <h2><span class="icone">❓</span>Perguntas frequentes</h2>
+      <div class="filete"></div>
+
+      <p class="olho">
+        As perguntas que mais aparecem quando alguém lê o material pela primeira vez.
+      </p>
+
+      <details open>
+        <summary>A inteligência artificial "decidiu" atacar esses sistemas?</summary>
+        <p>
+          Não. Em nenhum dos casos documentados há evidência de objetivo autônomo de causar dano.
+          O que se observa é uma combinação de falhas de engenharia: isolamento mal especificado
+          ou mal verificado, credenciais expostas em serviços públicos, vulnerabilidades
+          conhecidas e desconhecidas em software de terceiros e tarefas formuladas sem caminho de
+          saída segura. O agente perseguia a tarefa que lhe foi atribuída e, no curso dela,
+          encontrou um caminho que ninguém havia previsto.
+        </p>
+      </details>
+
+      <details>
+        <summary>Por que isso é diferente de um hacker acessando um sistema?</summary>
+        <p>
+          São problemas distintos. Em um ataque convencional, alguém escolhe o alvo e decide
+          invadi-lo. Aqui, não houve escolha do alvo: o agente foi colocado a executar uma tarefa
+          legítima e, ao encontrar um obstáculo, buscou um caminho alternativo para concluí-la.
+          O caso australiano é o exemplo mais claro — o agente pesquisava gastos públicos com
+          medicamentos e contornou os controles de acesso do portal porque a tarefa não admitia
+          recusa.
+        </p>
+      </details>
+
+      <details>
+        <summary>O que significa "desaceleração" e por que não é "retrocesso"?</summary>
+        <p>
+          Retrocesso significa parar ou reverter o desenvolvimento de IA. Desaceleração significa
+          continuar avançando, mas num ritmo que permita que avaliação, regulação e pesquisa de
+          segurança acompanhem o progresso técnico. É uma mudança de <b>velocidade</b>, não de
+          <b>direção</b>. O debate internacional de 2026 deslocou-se do primeiro termo para o
+          segundo — e esse deslocamento respondeu menos a uma mudança de doutrina das empresas e
+          mais à evidência acumulada de falhas concretas e repetidas.
+        </p>
+      </details>
+
+      <details>
+        <summary>Houve roubo de dados sigilosos?</summary>
+        <p>
+          Na maior parte dos casos, não. O portal do Medicare australiano contém apenas dados
+          agregados e não sensíveis. No conjunto documentado pela Transluce e pela Wikimedia
+          Foundation, os autores afirmam não ter identificado acesso a informação não pública. O
+          problema ali foi outro: o <b>uso de recursos alheios de forma não prevista por seus
+          administradores</b>, com efeitos mensuráveis sobre os serviços — em Maryland, por
+          exemplo, registrou-se um pico de 5.594 capturas por minuto.
+        </p>
+      </details>
+
+      <details>
+        <summary>Por que as empresas demoraram tanto para avisar?</summary>
+        <p>
+          Essa é a pergunta central do estudo. Os intervalos entre a ocorrência e a divulgação
+          variaram de 4 dias a quase três meses — o caso australiano levou 84 dias entre o acesso
+          e a notificação ao governo. Em todos os casos, a informação chegou ao público por
+          investigação de terceiros ou por divulgação de autoridade, e não pelo relato voluntário
+          tempestivo de quem operava os agentes. A conclusão do estudo é que <b>foi essa
+          assimetria, mais do que a falha técnica em si, que transformou os episódios em crise
+          institucional</b>.
+        </p>
+      </details>
+
+      <details>
+        <summary>A inteligência artificial vai parar de ser desenvolvida?</summary>
+        <p>
+          Não há indicativo disso. As respostas anunciadas por laboratórios, órgãos públicos e
+          organizações independentes convergem para <b>avaliação externa permanente</b>,
+          <b>relato obrigatório de incidentes</b> e <b>isolamento verificado e monitorado</b> —
+          medidas de controle, não de interrupção. É preciso registrar, por honestidade, que parte
+          dos comentaristas lê essas propostas como possível barreira à entrada de concorrentes;
+          o material disponível não permite decidir entre as duas leituras.
+        </p>
+      </details>
+
+      <details>
+        <summary>Quais foram as fontes usadas?</summary>
+        <p>
+          Documentos publicados entre 21 de julho e 17 de outubro de 2026, em três camadas:
+          fontes primárias das próprias organizações envolvidas (comunicados e relatórios da
+          OpenAI, da Anthropic e da Hugging Face); fontes governamentais (alerta do Centro
+          Australiano de Cibersegurança, revisão rápida do Departamento do Primeiro-Ministro e do
+          Gabinete, comunicado do Centro Canadense de Cibersegurança, documentos do Comitê
+          Conjunto Seleto sobre Inteligência Artificial do Parlamento australiano); e relatórios
+          de organizações independentes (METR, Redwood Research, Transluce e Wikimedia
+          Foundation). Todas as afirmações factuais exigem ao menos duas fontes independentes,
+          com data de acesso.
+        </p>
+      </details>
+
+    </div>
+  </section>
+
+
+ 
+  <section class="chamada">
+    <div class="container">
+      <h2>Segurança se verifica — não se promete</h2>
+      <div class="filete"></div>
+      <p>
+        A segurança de sistemas autônomos não se resolve com promessas em contrato. Resolve-se
+        verificando se o ambiente está realmente isolado, se há monitoramento contínuo e se
+        existe um canal claro para relatar um incidente quando ele acontece.
+      </p>
+      <a class="btn-principal" href="#topo">Ir para o início</a>
+    </div>
+  </section>
+
+</main>
+
+
+
+<footer class="footer">
+  <div class="container">
+
+    <div class="footer__cols">
+
+      <div>
+        <h4>Sobre esta pesquisa</h4>
+        <p>
+          Estudo documental, qualitativo e descritivo, sem pretensão de representatividade
+          estatística. Adota a regra das duas fontes independentes para cada afirmação factual
+          e uma data de corte explícita de 10 de outubro de 2026.
+        </p>
+      </div>
+
+      <div>
+        <h4>Autoria</h4>
+        <p>
+          <b class="footer__nome">Ana Julia Pinheiro Da Silva</b><br>
+          Graduanda em Análise e Desenvolvimento de Sistemas<br>
+          Universidade de Mogi das Cruzes — Mogi das Cruzes, SP
+        </p>
+      </div>
+
+      <div>
+        <h4>Fontes principais</h4>
+        <ul>
+          <li>OpenAI — comunicados e relatório técnico</li>
+          <li>Anthropic — revisão de avaliações de cibersegurança</li>
+          <li>Hugging Face — divulgação de incidente</li>
+          <li>Governo da Austrália — revisão rápida e alerta setorial</li>
+          <li>METR, Transluce e Wikimedia Foundation</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer__fim">
+      Conteúdo produzido para fins de divulgação científica e extensão. Ana Julia Pinheiro © 2026
+    </div>
+
+  </div>
+</footer>
+
+
+<!-- Botão voltar ao topo -->
+<button class="ao-topo" type="button" aria-label="Voltar ao topo">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+       stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M12 19V5M5 12l7-7 7 7"/>
+  </svg>
+</button>
+
+
+<!-- Script principal -->
+<script src="js/main.js"></script>
+
+</body>
+</html>

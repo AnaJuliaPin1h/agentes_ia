@@ -1,0 +1,109 @@
+/* ==========================================================================
+   TEMA OFICIAL — "Eixo"
+   Azul-marinho · Cinza · Preto · Branco
+   --------------------------------------------------------------------------
+   Este arquivo é a fonte única de verdade das cores do projeto.
+   Ele é importado por style.css (site) e deve ser reaproveitado no panfleto.
+
+   Justificativa de cada cor, para o material de apresentação:
+     · Azul-marinho — confiança, profissionalismo, lógica e estabilidade.
+                      Autoridade sem agressividade.
+     · Cinza        — equilíbrio, sobriedade e racionalidade.
+                      Neutralidade e autocontrole.
+     · Preto        — elegância, sofisticação e autoridade. Versátil e sério.
+     · Branco       — clareza, ordem e precisão. Imagem limpa e organizada.
+   ========================================================================== */
+
+:root {
+
+  /* ----------------------------------------------------------------------
+     1. AZUL-MARINHO — cor de autoridade: cabeçalho, botões, destaques.
+     ---------------------------------------------------------------------- */
+
+  --marinho-900: #0a1628;   /* fundos escuros e chamada final            */
+  --marinho-800: #0f2440;   /* cabeçalho de tabela                       */
+  --marinho-700: #14355e;   /* fim do gradiente e dado em destaque        */
+  --marinho-600: #1b4a80;   /* cor primária: botões e links               */
+  --marinho-500: #245d9c;   /* estados de hover                           */
+  --marinho-100: #e8eef5;   /* fundos suaves de destaque                  */
+  --marinho-050: #f4f7fa;   /* fundo de seção alternada                   */
+
+  /* ----------------------------------------------------------------------
+     2. CINZA — equilíbrio e sobriedade: texto de apoio, bordas, tabelas.
+     ---------------------------------------------------------------------- */
+
+  --cinza-900: #1c1f23;     /* texto corrido                              */
+  --cinza-700: #3d444c;     /* citações                                   */
+  --cinza-600: #5a626b;     /* texto secundário                           */
+  --cinza-400: #9aa1a9;     /* rótulos e legendas                         */
+  --cinza-300: #c8ced4;     /* divisores e sublinhado de link             */
+  --cinza-200: #dfe3e7;     /* bordas                                     */
+  --cinza-100: #eef0f3;     /* fundos neutros                             */
+  --cinza-050: #f6f7f8;     /* faixa alternada de tabela                  */
+
+  /* ----------------------------------------------------------------------
+     3. PRETO — elegância, sofisticação e máxima autoridade.
+     ---------------------------------------------------------------------- */
+
+  --preto:    #000000;      /* títulos e máximo contraste                 */
+  --preto-90: #14171a;      /* cabeçalho e rodapé                         */
+
+  /* ----------------------------------------------------------------------
+     4. BRANCO — clareza, ordem e precisão.
+     ---------------------------------------------------------------------- */
+
+  --branco:    #ffffff;
+  --branco-70: rgba(255, 255, 255, 0.70);
+  --branco-50: rgba(255, 255, 255, 0.50);
+  --branco-25: rgba(255, 255, 255, 0.25);
+  --branco-12: rgba(255, 255, 255, 0.12);
+
+  /* ----------------------------------------------------------------------
+     5. SINALIZAÇÃO — apenas etiquetas de estado.
+     Tons dessaturados, para não competir com o azul-marinho.
+     ---------------------------------------------------------------------- */
+
+  --sinal-atencao: #8a5f1a;
+  --sinal-alerta:  #93332b;
+  --sinal-ok:      #2a6350;
+
+  /* ----------------------------------------------------------------------
+     6. PAPÉIS (o que usar em quê)
+     ---------------------------------------------------------------------- */
+
+  --cor-primaria:       var(--marinho-600);
+  --cor-primaria-hover: var(--marinho-500);
+  --cor-escura:         var(--preto-90);
+  --cor-texto:          var(--cinza-900);
+  --cor-texto-suave:    var(--cinza-600);
+  --cor-borda:          var(--cinza-200);
+  --cor-fundo:          var(--branco);
+  --cor-fundo-alt:      var(--marinho-050);
+
+  /* ----------------------------------------------------------------------
+     7. GRADIENTE ESCURO — usado no hero do site e na capa do panfleto
+     ---------------------------------------------------------------------- */
+
+  --grad-escuro: linear-gradient(160deg, var(--marinho-900) 0%, var(--marinho-800) 55%, var(--marinho-700) 130%);
+
+  /* ----------------------------------------------------------------------
+     8. MEDIDAS E TIPOGRAFIA
+     ---------------------------------------------------------------------- */
+
+  --largura-max:   1080px;
+  --raio:          8px;
+  --altura-header: 64px;
+  --fonte-titulo:  'Lora', Georgia, 'Times New Roman', serif;
+  --fonte-texto:   'Montserrat', 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+
+  --transicao:     0.2s ease;
+}
+
+
+.filete {
+  width: 56px;
+  height: 3px;
+  margin: 0 auto 26px;
+  background-color: var(--marinho-600);
+  border-radius: 2px;
+}
