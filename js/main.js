@@ -1,22 +1,7 @@
-/* ==========================================================================
-   Agentes de IA e acesso não autorizado a sistemas governamentais
-   main.js — comportamento do site
-   --------------------------------------------------------------------------
-   Cuida apenas de comportamento. Nada de texto ou cor mora aqui.
 
-     1. Marca no menu a seção que está visível
-     2. Mostra e esconde o botão "voltar ao topo"
-     3. Abre a pergunta do FAQ quando o link traz a âncora direto para ela
-     4. Atualiza o ano do rodapé sozinho
-   ========================================================================== */
 
 (function () {
   'use strict';
-
-  /* ======================================================================
-     CONFIGURAÇÃO
-     Se renomear uma classe no HTML, ajuste o seletor aqui.
-     ====================================================================== */
 
   var CONFIG = {
     linkMenu:      '.nav a[href^="#"]',
@@ -28,9 +13,7 @@
   };
 
 
-  /* ======================================================================
-     AUXILIAR — executa no máximo uma vez por quadro de animação
-     ====================================================================== */
+ 
 
   function limitarPorQuadro(fn) {
     var agendado = false;
@@ -46,9 +29,7 @@
   }
 
 
-  /* ======================================================================
-     1. MENU — MARCA A SEÇÃO VISÍVEL
-     ====================================================================== */
+
 
   function iniciarMenuAtivo() {
     var links = Array.prototype.slice.call(
@@ -83,9 +64,7 @@
   }
 
 
-  /* ======================================================================
-     2. BOTÃO "VOLTAR AO TOPO"
-     ====================================================================== */
+ 
 
   function iniciarBotaoAoTopo() {
     var botao = document.querySelector(CONFIG.botaoAoTopo);
@@ -104,10 +83,7 @@
   }
 
 
-  /* ======================================================================
-     3. FAQ — ABRE O ITEM QUANDO O LINK TRAZ A ÂNCORA DIRETO PARA ELE
-     Ex.: alguém compartilha o link ...#pergunta-3
-     ====================================================================== */
+
 
   function iniciarFaqPorAncora() {
     function abrirAlvo() {
@@ -131,10 +107,6 @@
   }
 
 
-  /* ======================================================================
-     4. ANO AUTOMÁTICO NO RODAPÉ
-     ====================================================================== */
-
   function iniciarAnoDoRodape() {
     document.querySelectorAll('.js-ano').forEach(function (el) {
       el.textContent = new Date().getFullYear();
@@ -142,9 +114,6 @@
   }
 
 
-  /* ======================================================================
-     INICIALIZAÇÃO
-     ====================================================================== */
 
   function iniciar() {
     iniciarMenuAtivo();
