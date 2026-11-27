@@ -71,10 +71,6 @@ O site é estático, sem dependência de servidor:
    ```
 3. Abra o arquivo `index.html` no navegador. Não é necessário instalar nada.
 
-## Como citar
-
-> SILVA, Ana Julia Pinheiro da. **Agentes de IA e acesso não autorizado a sistemas governamentais: estudo documental dos incidentes de 2026 e do debate sobre a desaceleração da fronteira.** Mogi das Cruzes: Universidade de Mogi das Cruzes, 2026. Disponível em: https://pesquisaiaagente.netlify.app. Acesso em: [data de acesso].
-
 ## Contexto acadêmico
 
 Trabalho desenvolvido como projeto de extensão da graduação em **Análise e Desenvolvimento de Sistemas** na **Universidade de Mogi das Cruzes (UMC)**, em Mogi das Cruzes, SP.
